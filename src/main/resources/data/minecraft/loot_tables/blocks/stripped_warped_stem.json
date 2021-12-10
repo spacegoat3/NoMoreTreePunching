@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_log",
+          "name": "minecraft:stripped_warped_stem",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "tag": "nmtp:all_axes"
+                "tag": "nmtp:2_tier_axes"
               }
             }
           ]

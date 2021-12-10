@@ -11,7 +11,7 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "tag": "nmtp:axes"
+                "tag": "nmtp:all_axes"
               }
             }
           ]

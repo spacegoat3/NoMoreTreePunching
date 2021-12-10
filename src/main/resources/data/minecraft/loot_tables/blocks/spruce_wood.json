@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_log",
+          "name": "minecraft:spruce_wood",
           "conditions": [
             {
               "condition": "minecraft:match_tool",

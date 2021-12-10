@@ -14,7 +14,6 @@ public class ModItems {
     public static final Item PLANT_FIBER = registerItem("plant_fiber",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
-
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, name), item);
     }

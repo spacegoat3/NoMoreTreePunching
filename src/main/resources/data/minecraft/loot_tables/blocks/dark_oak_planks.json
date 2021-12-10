@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_log",
+          "name": "minecraft:dark_oak_planks",
           "conditions": [
             {
               "condition": "minecraft:match_tool",

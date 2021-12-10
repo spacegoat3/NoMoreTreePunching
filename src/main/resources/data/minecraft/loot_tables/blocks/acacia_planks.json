@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_log",
+          "name": "minecraft:acacia_planks",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
