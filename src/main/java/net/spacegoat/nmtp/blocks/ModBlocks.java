@@ -15,17 +15,24 @@ import net.spacegoat.nmtp.Main;
 public class ModBlocks {
 
     private static final Block LOOSE_STONE = registerBlock("loose_stone",
-            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).breakByHand(true)
+            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
                     .sounds(BlockSoundGroup.STONE)));
     private static final Block LOOSE_ANDESITE = registerBlock("loose_andesite",
-            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).breakByHand(true)
+            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
                     .sounds(BlockSoundGroup.STONE)));
     private static final Block LOOSE_DIORITE = registerBlock("loose_diorite",
-            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).breakByHand(true)
+            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
                     .sounds(BlockSoundGroup.STONE)));
     private static final Block LOOSE_GRANITE = registerBlock("loose_granite",
-            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).breakByHand(true)
+            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
                     .sounds(BlockSoundGroup.STONE)));
+    private static final Block LOOSE_SANDSTONE = registerBlock("loose_sandstone",
+            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
+                    .sounds(BlockSoundGroup.STONE)));
+    private static final Block LOOSE_RED_SANDSTONE = registerBlock("loose_red_sandstone",
+            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
+                    .sounds(BlockSoundGroup.STONE)));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
