@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N",
+    " /"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:flint"
+    },
+    "N": {
+      "item": "nmtp:plant_string"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "nmtp:flint_axe",
+    "count": "1"
+  }
+}
