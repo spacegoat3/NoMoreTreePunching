@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nmtp:items/materials/plant_fiber"
+    "layer0": "nmtp:items/tools/flint_shovel"
   }
 }

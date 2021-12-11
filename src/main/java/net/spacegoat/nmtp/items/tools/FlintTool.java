@@ -13,7 +13,7 @@ public class FlintTool implements ToolMaterial {
         return 40;
     }
     public float getMiningSpeedMultiplier(){
-        return 1.0f;
+        return 1.5f;
     }
     public float getAttackDamage(){
         return 0;

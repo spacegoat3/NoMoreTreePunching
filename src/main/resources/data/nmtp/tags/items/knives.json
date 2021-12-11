@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "nmtp:flint_knife",
+    "nmtp:wooden_knife",
+    "nmtp:stone_knife",
+    "nmtp:iron_knife",
+    "nmtp:diamond_knife",
+    "nmtp:netherite_knife"
+  ]
+}

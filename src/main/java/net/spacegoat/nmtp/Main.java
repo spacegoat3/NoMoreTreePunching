@@ -3,6 +3,7 @@ package net.spacegoat.nmtp;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.spacegoat.nmtp.blocks.ModBlocks;
 import net.spacegoat.nmtp.items.ModItems;
 import net.spacegoat.nmtp.items.ModTools;
 import org.apache.logging.log4j.LogManager;
@@ -16,8 +17,10 @@ public class Main implements ModInitializer {
 	public void onInitialize() {
 		//CLASS REGISTRIES
 		ModItems.registerModItems();
+		ModTools.registerModTools();
+		ModBlocks.registerModBlocks();
 
-		//TOOL REGISTRIES
+		//DIRECT REGISTRIES
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_axe"),
 				ModTools.FLINT_AXE);
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_pickaxe"),
@@ -26,9 +29,5 @@ public class Main implements ModInitializer {
 				ModTools.FLINT_HOE);
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_shovel"),
 				ModTools.FLINT_SHOVEL);
-		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_knife"),
-				ModTools.FLINT_KNIFE);
-		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_sword"),
-				ModTools.FLINT_SWORD);
 	}
 }
