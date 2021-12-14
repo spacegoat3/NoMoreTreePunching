@@ -1,48 +1,15 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:shears"
-                  }
-                }
-              ],
-              "name": "minecraft:grass"
-            },
-            {
-              "type": "item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "tag": "nmtp:knives"
-                  }
-                },
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ],
-              "name": "nmtp:plant_fiber"
-            },
-            {
-              "type": "item",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.125
-                }
-              ],
+              "type": "minecraft:item",
+              "weight": 1,
               "name": "minecraft:wheat_seeds",
               "functions": [
                 {
@@ -52,9 +19,56 @@
                   "parameters": {
                     "bonusMultiplier": 2
                   }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.125
                 },
                 {
-                  "function": "minecraft:explosion_decay"
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "nmtp:plant_fiber",
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "parameters": {
+                    "bonusMultiplier": 2
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.30
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "nmtp:knives"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:grass",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
                 }
               ]
             }

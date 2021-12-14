@@ -17,6 +17,9 @@ public class ModBlocks {
     private static final Block LOOSE_STONE = registerBlock("loose_stone",
             new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
                     .sounds(BlockSoundGroup.STONE)));
+    private static final Block LOOSE_DEEPSLATE = registerBlock("loose_deepslate",
+            new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
+                    .sounds(BlockSoundGroup.STONE)));
     private static final Block LOOSE_ANDESITE = registerBlock("loose_andesite",
             new RockBlock(FabricBlockSettings.of(Material.STONE).strength(0.1f).breakByHand(true)
                     .sounds(BlockSoundGroup.STONE)));

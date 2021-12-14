@@ -23,20 +23,20 @@ public class ModTools {
             FlintTool.INSTANCE, 3, 1.6f, new Item.Settings().group(ItemGroup.MATERIALS)));
 
     public static ToolItem FLINT_KNIFE = registerSwordItem("flint_knife", new SwordItem(FlintTool.INSTANCE
-            , 1, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
+            , 0, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
     public static ToolItem WOODEN_KNIFE = registerSwordItem("wooden_knife", new SwordItem(ToolMaterials
-            .WOOD, 2, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
+            .WOOD, 1, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
     public static ToolItem STONE_KNIFE = registerSwordItem("stone_knife", new SwordItem(ToolMaterials
-            .STONE, 3, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
+            .STONE, 1, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
     public static final ToolItem GOLDEN_KNIFE = registerSwordItem("golden_knife",
-            new SwordItem(ToolMaterials.NETHERITE, 3, 1.8f,
+            new SwordItem(ToolMaterials.NETHERITE, -2, 1.8f,
                     new Item.Settings().group(ItemGroup.MATERIALS)));
     public static ToolItem IRON_KNIFE = registerSwordItem("iron_knife", new SwordItem(
-            ToolMaterials.IRON, 4, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
+            ToolMaterials.IRON, 1, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
     public static ToolItem DIAMOND_KNIFE = registerSwordItem("diamond_knife", new SwordItem(
-            ToolMaterials.DIAMOND, 5, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
+            ToolMaterials.DIAMOND, 1, 1.8f, new Item.Settings().group(ItemGroup.MATERIALS)));
     public static final ToolItem NETHERITE_KNIFE = registerSwordItem("netherite_knife",
-            new SwordItem(ToolMaterials.NETHERITE, 6, 1.8f,
+            new SwordItem(ToolMaterials.NETHERITE, 1, 1.8f,
             new Item.Settings().group(ItemGroup.MATERIALS)));
 
     private static ToolItem registerSwordItem(String name, SwordItem swordItem){
