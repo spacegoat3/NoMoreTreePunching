@@ -12,7 +12,7 @@ he is the one who made them. </font> </p>
 ### How can I install the mod?
 <font size = 3>NMTP is a mod build for <a href="https://fabricmc.net/">Fabric Mod Loader</a>, it also requires <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">Fabric API</a> to be installed. You can download the mod from its <a href="">CurseFore</a> or Modrinth Page.</font>
 
-##CREDITS
+## CREDITS
 <font size=3>Original idea by AlcatrazEscapee (<a href="https://www.curseforge.com/minecraft/mc-mods/no-tree-punching">No Tree Punching Mod</a>)</font>
 
 
