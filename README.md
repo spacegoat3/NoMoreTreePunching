@@ -1,6 +1,6 @@
 # No More Tree Punching
 
-### What is this?
+### What is it?
 <p><font size = 3> No More Tree Punching (NMTP) is a Minecraft Fabric mod that adds new items and blocks to the game while also changing the
 Minecraft's block drops to make the game's start a bit more harder. </font> </p>
 
