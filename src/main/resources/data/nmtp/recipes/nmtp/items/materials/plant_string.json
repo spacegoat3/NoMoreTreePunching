@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nmtp:plant_fiber"
+    },
+    {
+      "item": "nmtp:plant_fiber"
+    },
+    {
+      "item": "nmtp:plant_fiber"
+    }
+  ],
+  "result": {
+    "item": "nmtp:plant_string"
+  }
+}

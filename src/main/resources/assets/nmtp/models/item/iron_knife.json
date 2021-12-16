@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "nmtp:items/tools/knives/iron_knife"
+  }
+}
