@@ -1,33 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "nmtp",
+  "id": "modid",
   "version": "${version}",
 
-  "name": "No More Tree Punching",
-  "description": "Makes the start of Minecraft harder with changing block drops and adding new items. The first thing you need to do when you join the game is finding some gravel and getting at least 2 Flints. After that, you can break some Leaves or Dead Bushes to get some stick. With 1 Stick and 1 Flint you can craft yourself a Flint Knife, which you can use to collect Plant Fibers by breaking grass. With 3 Plant Fibers, you can craft a Plant String. After all of those, you can combine 1 Plant Stick, 1 Plant String, and 1 Flint to craft a Flint Axe and break down your first log.",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "spacegoat",
-    "AlcatrazEscapee"
+    "Me!"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/nmtp",
-    "sources": "https://github.com/spacegoat3/NoMoreTreePunching"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "MIT",
-  "icon": "nmtp.png",
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.spacegoat.nmtp.Main"
+      "net.fabricmc.example.ExampleMod"
     ]
   },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": ["1.17", "1.17.1", "1.18", "1.18.1"],
-    "java": ">=16"
+    "minecraft": "1.16.x"
   },
   "suggests": {
     "another-mod": "*"
