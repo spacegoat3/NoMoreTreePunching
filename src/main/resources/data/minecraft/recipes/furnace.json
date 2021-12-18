@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "C": {
+      "tag": "minecraft:campfires"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace"
+  }
+}

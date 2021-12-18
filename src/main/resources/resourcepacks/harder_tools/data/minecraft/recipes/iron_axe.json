@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    "S#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "nmtp:rope"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_axe"
+  }
+}

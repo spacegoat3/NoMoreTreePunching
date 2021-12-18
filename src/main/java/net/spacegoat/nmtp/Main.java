@@ -1,6 +1,12 @@
 package net.spacegoat.nmtp;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.block.Blocks;
+import net.minecraft.resource.ResourceManager;
+import net.minecraft.resource.ResourceType;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
@@ -23,6 +29,7 @@ public class Main implements ModInitializer {
 		ModItems.registerModItems();
 		ModTools.registerModTools();
 		ModBlocks.registerModBlocks();
+		this.registerBasicToolsPack();
 
 		//DIRECT REGISTRIES
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_axe"),
@@ -33,5 +40,11 @@ public class Main implements ModInitializer {
 				ModTools.FLINT_HOE);
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_shovel"),
 				ModTools.FLINT_SHOVEL);
+	}
+	private void registerBasicToolsPack(){
+		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+			var added = ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(
+					MOD_ID, "basic_tools"), modContainer, ResourcePackActivationType.DEFAULT_ENABLED);
+		});
 	}
 }

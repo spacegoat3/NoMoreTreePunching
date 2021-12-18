@@ -6,13 +6,16 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.spacegoat.nmtp.Main;
-import org.lwjgl.system.CallbackI;
 
 public class ModItems {
 
     public static final Item PLANT_FIBER = registerItem("plant_fiber",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+
     public static final Item PLANT_STRING = registerItem("plant_string",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+
+    public static final Item ROPE = registerItem("rope",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
     private static Item registerItem(String name, Item item){

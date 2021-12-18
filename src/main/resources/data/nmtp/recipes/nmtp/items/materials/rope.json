@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "#CC",
+    " C#"
+  ],
+  "key": {
+    "#": {
+      "tag": "nmtp:strings"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "nmtp:rope",
+    "count": 1
+  }
+}

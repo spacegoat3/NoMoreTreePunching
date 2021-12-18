@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "S#",
+    "S#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "nmtp:rope"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_hoe"
+  }
+}
