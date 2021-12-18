@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "XX",
-    "X#",
+    "S#",
     "S#"
   ],
   "key": {
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "minecraft:diamond_axe"
+    "item": "minecraft:diamond_hoe"
   }
 }

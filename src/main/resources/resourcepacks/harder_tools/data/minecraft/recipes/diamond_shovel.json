@@ -1,22 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX",
-    "X#",
-    "S#"
+    " X ",
+    " # ",
+    "S#S"
   ],
   "key": {
     "#": {
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:diamond_ingot"
     },
     "S": {
       "item": "nmtp:rope"
     }
   },
   "result": {
-    "item": "minecraft:diamond_axe"
+    "item": "minecraft:diamond_shovel"
   }
 }

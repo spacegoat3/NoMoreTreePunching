@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX",
-    "X#",
-    "S#"
+    "XXX",
+    "S#S",
+    " # "
   ],
   "key": {
     "#": {
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "minecraft:diamond_axe"
+    "item": "minecraft:diamond_pickaxe"
   }
 }
