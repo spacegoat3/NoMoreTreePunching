@@ -29,6 +29,7 @@ public class Main implements ModInitializer {
 		ModItems.registerModItems();
 		ModTools.registerModTools();
 		ModBlocks.registerModBlocks();
+
 		this.registerBasicToolsPack();
 
 		//DIRECT REGISTRIES
