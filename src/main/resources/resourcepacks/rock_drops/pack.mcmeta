@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 8,
+    "description": "Makes Stone Blocks drop rocks when mined."
+  }
+}

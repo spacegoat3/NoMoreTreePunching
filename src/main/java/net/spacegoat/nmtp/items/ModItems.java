@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.spacegoat.nmtp.Main;
+import net.spacegoat.nmtp.NmtpConfig;
 
 public class ModItems {
 

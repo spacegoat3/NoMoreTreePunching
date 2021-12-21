@@ -4,15 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.block.Blocks;
-import net.minecraft.resource.ResourceManager;
-import net.minecraft.resource.ResourceType;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.OreConfiguredFeatures;
-import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.spacegoat.nmtp.blocks.ModBlocks;
 import net.spacegoat.nmtp.items.ModItems;
 import net.spacegoat.nmtp.items.ModTools;
@@ -30,7 +23,13 @@ public class Main implements ModInitializer {
 		ModTools.registerModTools();
 		ModBlocks.registerModBlocks();
 
-		this.registerBasicToolsPack();
+		if (NmtpConfig.getConfig().enableBasicTools){
+			registerBasicTools();
+		}
+		if (NmtpConfig.getConfig().enableRockDrops){
+			registerRockDrops();
+		}
+
 
 		//DIRECT REGISTRIES
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_axe"),
@@ -42,10 +41,16 @@ public class Main implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_shovel"),
 				ModTools.FLINT_SHOVEL);
 	}
-	private void registerBasicToolsPack(){
+	private void registerBasicTools(){
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 			var added = ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(
-					MOD_ID, "basic_tools"), modContainer, ResourcePackActivationType.DEFAULT_ENABLED);
+					MOD_ID, "basic_tools"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
+		});
+	}
+	private void registerRockDrops(){
+		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+			var added = ResourceManagerHelper.registerBuiltinResourcePack(new Identifier(
+					MOD_ID, "rock_drops"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED);
 		});
 	}
 }
