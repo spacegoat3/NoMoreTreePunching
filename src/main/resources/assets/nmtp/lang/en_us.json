@@ -23,5 +23,8 @@
   "item.nmtp.golden_knife": "Golden Knife",
   "item.nmtp.iron_knife": "Iron Knife",
   "item.nmtp.diamond_knife": "Diamond Knife",
-  "item.nmtp.netherite_knife": "Netherite Knife"
+  "item.nmtp.netherite_knife": "Netherite Knife",
+
+  "title.nmtp.config": "No More Tree Punching Config",
+  "config_category.nmtp.pack_activation": "Resource/Data Packs"
 }

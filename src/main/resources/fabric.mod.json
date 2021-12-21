@@ -6,7 +6,7 @@
   "name": "No More Tree Punching",
   "description": "Makes the start of Minecraft harder with changing block drops and adding new items. The first thing you need to do when you join the game is finding some gravel and getting at least 2 Flints. After that, you can break some Leaves or Dead Bushes to get some stick. With 1 Stick and 1 Flint you can craft yourself a Flint Knife, which you can use to collect Plant Fibers by breaking grass. With 3 Plant Fibers, you can craft a Plant String. After all of those, you can combine 1 Plant Stick, 1 Plant String, and 1 Flint to craft a Flint Axe and break down your first log.",
   "authors": [
-    "spacegoat",
+    "spacegoat3",
     "AlcatrazEscapee",
     "xalixilax"
   ],
@@ -30,7 +30,7 @@
     "fabricloader": ">=0.11.3",
     "fabric": "*",
     "minecraft": ["1.18", "1.18.1"],
-    "java": ">=16"
+    "java": ">=17"
   },
   "suggests": {
     "another-mod": "*"

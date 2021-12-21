@@ -30,7 +30,6 @@ public class Main implements ModInitializer {
 			registerRockDrops();
 		}
 
-
 		//DIRECT REGISTRIES
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "flint_axe"),
 				ModTools.FLINT_AXE);
