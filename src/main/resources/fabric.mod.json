@@ -23,7 +23,8 @@
     "main": [
       "net.spacegoat.nmtp.Main"
     ],
-    "client": [
+    "modmenu": [
+      "net.spacegoat.nmtp.ModMenuIntegration"
     ]
   },
   "depends": {

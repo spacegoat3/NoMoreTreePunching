@@ -14,7 +14,6 @@ public class NmtpConfig implements ConfigData {
     @ConfigEntry.Category("enable_basic_tools")
             @Comment("Gives the tools harder recipes and new textures to make them feel basic/hand-made. You will now need 2 ropes to craft every tool. A Rope can be crafted with 3 Clay Balls and 4 Plant/Normal Strings.")
     boolean enableBasicTools = true;
-
     @ConfigEntry.Category("enable_rock_drops")
             @Comment("Makes every Stone Block(diorite, stone, etc.) drop 4 pieces of rocks of themselves.")
     boolean enableRockDrops = true;
