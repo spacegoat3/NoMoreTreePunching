@@ -23,10 +23,10 @@ public class Main implements ModInitializer {
 		ModTools.registerModTools();
 		ModBlocks.registerModBlocks();
 
-		if (NmtpConfig.getConfig().Gameplay.enableBasicTools){
+		if (NmtpConfig.getConfig().Gamerules.enableBasicTools){
 			registerBasicTools();
 		}
-		if (NmtpConfig.getConfig().Gameplay.enableRockDrops){
+		if (NmtpConfig.getConfig().Gamerules.enableRockDrops){
 			registerRockDrops();
 		}
 

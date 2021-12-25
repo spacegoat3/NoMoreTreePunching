@@ -14,9 +14,9 @@ import java.awt.*;
 public class NmtpConfig implements ConfigData {
 
     @ConfigEntry.Gui.TransitiveObject
-    public Gameplay Gameplay = new Gameplay();
+    public Gamerules Gamerules = new Gamerules();
 
-    public static class Gameplay {
+    public static class Gamerules {
         @Comment("Gives the tools harder recipes and new textures to make them feel basic/hand-made. You will now need 2 ropes to craft every tool. A Rope can be crafted with 3 Clay Balls and 4 Plant/Normal Strings.")
                 @ConfigEntry.Gui.RequiresRestart
         boolean enableBasicTools = true;

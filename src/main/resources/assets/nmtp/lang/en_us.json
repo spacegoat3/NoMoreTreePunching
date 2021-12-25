@@ -25,7 +25,7 @@
   "item.nmtp.diamond_knife": "Diamond Knife",
   "item.nmtp.netherite_knife": "Netherite Knife",
 
-  "text.autoconfig.nmtp.title": "No More Tree Punching Config",
-  "text.autoconfig.nmtp.option.Default.enableBasicTools": "Enable Basic Tools",
-  "text.autoconfig.nmtp.option.Default.enableRockDrops": "Enable Rock Drops"
+  "text.autoconfig.no_more_tree_punching.title": "No More Tree Punching Config",
+  "text.autoconfig.no_more_tree_punching.option.Gamerules.enableBasicTools": "Enable Basic Tools",
+  "text.autoconfig.no_more_tree_punching.option.Gamerules.enableRockDrops": "Enable Rock Drops"
 }
