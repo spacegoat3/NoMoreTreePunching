@@ -30,10 +30,11 @@
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": ["1.18", "1.18.1"],
-    "java": ">=17"
+    "minecraft": ["1.17","1.17.x","1.18","1.18.x"],
+    "java": ["16",">=17"],
+    "cloth-config2": ">=5.0.34"
   },
   "suggests": {
-    "another-mod": "*"
+    "modmenu": ">=2.0.2"
   }
 }
